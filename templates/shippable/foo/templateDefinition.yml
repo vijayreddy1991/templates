@@ -28,4 +28,4 @@ pipelines:
             - name: basic2
         execution:
           onExecute:
-            - printenv {{ Values.foo.zoo }}
+            - printenv {{ Values.foo.zoob }}
