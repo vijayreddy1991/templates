@@ -19,13 +19,3 @@ pipelines:
         execution:
           onExecute:
             - printenv {{ Values.foo.baz }}
-      - name: basic3
-        type: Bash
-        configuration:
-          runtime:
-            type: host
-          inputSteps:
-            - name: basic2
-        execution:
-          onExecute:
-            - printenv {{ Values.foo.zoo }}
