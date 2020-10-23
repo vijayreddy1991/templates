@@ -1,4 +1,5 @@
 pipelines:
+- pipelines
   - name: basic
     steps:
       - name: basic1
